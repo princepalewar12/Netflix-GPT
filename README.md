@@ -7,6 +7,9 @@
 - Sign up Form
 - Form Validation(regex for email & password validation)
 - useRef Hook
+- Firebase Setup
+- Deploy app to production
+- create signUP user Account
 
 # Features
 - Login/Sign Up
