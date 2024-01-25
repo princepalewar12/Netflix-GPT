@@ -57,8 +57,8 @@ const Header = () => {
   };
 
   return (
-    <div className="absolute w-full px-8 py-2 bg-gradient-to-b from-black z-10 flex justify-between ">
-      <img className="w-48" src={LOGO} alt="netflix-logo" />
+    <div className="absolute w-full px-8 py-2 bg-gradient-to-b from-black z-10 flex flex-col md:flex-row justify-between">
+      <img className="w-48 mx-auto md:mx-0" src={LOGO} alt="netflix-logo" />
       {/* when user is present then load the below jsx */}
       {user && (
         <div className="flex p-2">
